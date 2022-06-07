@@ -7,9 +7,14 @@ const Product = (props) => {
                 <p className="props.data.price">{props.data.price}</p>
             </div>
             <div className="props.data.tags">
-                <p></p> 
+                <p className="props.data.tags[0]"></p> 
+                <p className="props.data.tags[1]"></p> 
+                <p className="props.data.tags[2]"></p> 
+                <p className="props.data.tags[3]"></p> 
             </div>
             
         </div>
     );
 }
+
+export default Product;
