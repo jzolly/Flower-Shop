@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import data from './data';
+import Nav from './components/Nav';
+import Banner from './components/Banner';
 
 function App() {
   return (
