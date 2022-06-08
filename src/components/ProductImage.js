@@ -1,9 +1,9 @@
-const ProductImage = (props) => {
+const ProductImage = ({image, name}) => {
     return (
         <img
-        src={props.image}
         className="flower-image"
-        alt={props.name} 
+        src={image}
+        alt={name} 
         />
     );
 }

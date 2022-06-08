@@ -1,8 +1,7 @@
 const FootData = (props) => {
     return (
         <div className="foot-data">
-            <h5></h5>
-            <p></p>
+            <p>FLOWERBOX / EST.2019</p>
         </div>
     );
 }

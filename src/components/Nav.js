@@ -1,7 +1,7 @@
 const Nav = () => {
     return (
-        <div className="nav">
-            <ul>
+        <div className="nav-bar">
+            <ul className="nav">
                 <a href=""><li>about</li></a>
                 <a href=""><li>collections</li></a>
                 <a href=""><li>delivery service</li></a>

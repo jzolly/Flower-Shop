@@ -1,11 +1,13 @@
-import FootImage from "./FootImage";
-import FootData from "./FootData";
+import FootBoxText1 from "./FootBoxText1";
+import FootBoxText2 from "./FootBoxText2";
+import FootLogo from "./FootLogo";
 
-const Foot = () => {
+const Foot = (props) => {
     return (
-        <div>
-            <FootImage />
-            <FootData />
+        <div className="foot">
+            <FootLogo />
+            <FootBoxText1 />
+            <FootBoxText2 />
         </div>
     );
 }

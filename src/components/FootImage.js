@@ -1,14 +1,7 @@
 const FootImage = () => {
     return (
-        <div>
-            <img src="" alt=""/>
-            <p>FLOWERBOX/EST. 2019</p>
-            <div className="social-media">
-              <a href=""><img src="" alt="twitter"/> </a>  
-              <a href=""><img src="" alt="facboook"/> </a>  
-              <a href=""><img src="" alt="instagram"/></a>  
-            </div>
-               
+        <div className="logoImgBox">
+            <img className="imgLogo" src="https://i.imgur.com/KxfWH9J.png" alt="logo"/>
         </div>
         
 
